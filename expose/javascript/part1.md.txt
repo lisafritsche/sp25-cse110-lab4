@@ -1,0 +1,7 @@
+1. Output: values added: 20  
+2. Output: final result: 20  
+3. Variables declared with `var` have no block scope, which increases the risk of naming collisions or unintended overwriting and redeclaration.  
+4. Output: values added: 20  
+5. Error, because `let result` is block-scoped and not accessible outside the block.  
+6. Error, because the code attempts to reassign `result`, which is a constant, leading to a crash.  
+7. Error, because `result` is not defined in this scope.
